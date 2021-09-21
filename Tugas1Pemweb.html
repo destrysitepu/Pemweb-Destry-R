@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 300px; 
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Destry Rehulina Br Sitepu</h2>
+<p>118140022.</p>
+<p>Pemrograman Web RC</p>
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Informatika</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">Coding</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Teknik Informatika ITERA</h1>
+    <p>Teknik informatika ITERA (Institut Teknologi Sumatera) merupakan salah satu prodi yang ada di ITERA</p>
+    <p>Di prodi informatika kita akan mempelajari cara membuat suatu aplikasi yang berbasis web ataupun mobile.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
